@@ -1,0 +1,1 @@
+document.write("<form name=\"searchform\" method=\"get\" action=\"http://www.118xz.com/plus/search.php\"><input name=\"keyword\" type=\"text\" id=\"key\" /> <input type=\"image\" id=\"searchbutton\" value=\"ËÑË÷\" src=\"http://www.118xz.com/templets/js/search.png\" /></form>   ")

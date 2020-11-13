@@ -1,0 +1,14 @@
+document.writeln("<a href=\"javascript:void((function(s,d,e){try{}catch(e){}var f=\'http://v.t.sina.com.cn/share/share.php?\',u=d.location.href,p=[\'url=\',e(u),\'&title=\',e(d.title),\'&appkey=3373438317\'].join(\'\');function a(){if(!window.open([f,p].join(\'\'),\'mb\',[\'toolbar=0,status=0,resizable=1,width=620,height=450,left=\',(s.width-620)/2,\',top=\',(s.height-450)/2].join(\'\')))u.href=[f,p].join(\'\');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));\"><img src=\"http://www.118xz.com/templets/js/sina.gif\" /></a>");
+document.writeln("<a href=\"javascript:void(0)\" onclick=\"postToWb();\"><img src=\"http://www.118xz.com/templets/js/tqq.gif\" /></a>");
+document.writeln("<script type=\"text/javascript\">");
+document.writeln("	function postToWb(){");
+document.writeln("		var _t = encodeURI(document.title);");
+document.writeln("		var _url = encodeURIComponent(document.location);");
+document.writeln("		var _appkey = encodeURI(\"appkey\");//你从腾讯获得的appkey");
+document.writeln("		var _pic = encodeURI(\'\');//（例如：var _pic=\'图片url1|图片url2|图片url3....）");
+document.writeln("		var _site = \'www.118xz.com\';//你的网站地址");
+document.writeln("		var _u = \'http://v.t.qq.com/share/share.php?title=\'+_t+\'&url=\'+_url+\'&appkey=\'+_appkey+\'&site=\'+_site+\'&pic=\'+_pic;");
+document.writeln("		window.open( _u,\'转播到腾讯微博\', \'width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no\' );");
+document.writeln("	}");
+document.writeln("</script>");
+document.writeln("<a href=\"javascript:void(0);\" onclick=\"window.open(\'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=\'+encodeURIComponent(document.location.href));return false;\"><img src=\"http://www.118xz.com/templets/js/qzone.gif\" /></a>");
